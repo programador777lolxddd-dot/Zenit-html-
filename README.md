@@ -1,90 +1,219 @@
 <div align="center">
 
-# 🌌 Z E N I T
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                         Z E N I T                                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### ✨ Un lenguaje de programación en desarrollo ✨
+# <img src="https://img.shields.io/badge/✦-ZENIT-0b1020?style=for-the-badge&labelColor=0b1020" alt="Zenit" />
 
-**Explora. Crea. Programa.**
+### ✨ Un lenguaje de programación en español para explorar, aprender y crear ✨
 
-[![Web oficial](https://img.shields.io/badge/🌐-Web%20oficial-7C3AED?style=for-the-badge)](https://zenit-amber.vercel.app/)
-[![Tutorial](https://img.shields.io/badge/📘-Tutorial-2563EB?style=for-the-badge)](https://zenit-amber.vercel.app/tutorial.html)
-[![Intérprete](https://img.shields.io/badge/⚙️-Intérprete-0891B2?style=for-the-badge)](https://zenit-amber.vercel.app/zenit.js)
+**Tu idea. Tu código. Tu universo.**
+
+<p>
+  <a href="https://zenit-amber.vercel.app/"><img src="https://img.shields.io/badge/🌐_Web_oficial-Visitar-7C3AED?style=for-the-badge" alt="Web oficial"></a>
+  <a href="https://zenit-amber.vercel.app/tutorial.html"><img src="https://img.shields.io/badge/📘_Tutorial-Aprender-2563EB?style=for-the-badge" alt="Tutorial"></a>
+  <a href="https://zenit-amber.vercel.app/zenit.js"><img src="https://img.shields.io/badge/⚙️_Intérprete-Ver_código-0891B2?style=for-the-badge" alt="Intérprete"></a>
+  <a href="https://github.com/programador777lolxddd-dot/Zenit-html-"><img src="https://img.shields.io/badge/GitHub-Código_fuente-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+</p>
+
+![Estado](https://img.shields.io/badge/Estado-En_desarrollo- F59E0B?style=flat-square)
+![Versión](https://img.shields.io/badge/Versión-1.0.1-8B5CF6?style=flat-square)
+![Hecho con](https://img.shields.io/badge/Hecho_con-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![Idioma](https://img.shields.io/badge/Idioma-Español-EC4899?style=flat-square)
 
 ---
 
-*El comienzo de algo grande. Bienvenido a Zenit.* 🚀
+### 🌌 «Cada gran proyecto comienza con una primera línea de código».
 
 </div>
 
-## 🌠 ¿Qué es Zenit?
+## 🚀 ¿Qué es Zenit?
 
-**Zenit** es un lenguaje de programación en desarrollo, creado como proyecto personal para experimentar con código y aprender a programar.
+**Zenit** es un lenguaje de programación en desarrollo que busca ofrecer una forma accesible y divertida de experimentar con la programación, con palabras clave y funciones en español.
 
-El proyecto cuenta con un intérprete, una página web y un tutorial para comenzar a explorar el lenguaje.
+El proyecto incluye un **intérprete escrito en JavaScript** que permite analizar y ejecutar código Zenit directamente en el navegador, junto con una web interactiva y un tutorial para comenzar.
 
-## ⚡ Características
+> [!IMPORTANT]
+> Zenit está en desarrollo activo. Algunas características, ejemplos y detalles de sintaxis pueden cambiar a medida que el lenguaje evoluciona.
 
-- 🖨️ Mostrar mensajes con `imprimir`.
-- 📦 Trabajar con variables y listas.
-- 🔀 Usar condiciones `if/else`.
-- 🔁 Recorrer elementos con bucles `for`.
-- 🌐 Probar código desde páginas HTML que cargan el intérprete.
+## ✨ ¿Qué puedes hacer con Zenit?
 
-> [!NOTE]
-> Zenit sigue en desarrollo. La sintaxis y las características pueden cambiar con el tiempo.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🖨️ Mostrar resultados</h3>
+      Escribe mensajes y muestra valores con <code>imprimir()</code>.
+    </td>
+    <td width="50%">
+      <h3>📦 Variables y constantes</h3>
+      Guarda información con <code>var</code> y <code>const</code>.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🔀 Condiciones</h3>
+      Controla el flujo del programa con <code>if</code>, <code>else if</code> y <code>else</code>.
+    </td>
+    <td width="50%">
+      <h3>🔁 Bucles</h3>
+      Repite instrucciones con <code>while</code> y <code>for</code>.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🧩 Funciones</h3>
+      Define funciones con <code>func</code> y devuelve resultados con <code>return</code>.
+    </td>
+    <td width="50%">
+      <h3>📚 Listas</h3>
+      Crea listas, accede a sus elementos y recórrelas.
+    </td>
+  </tr>
+</table>
 
-## 💻 Tu primer código
+También encontrarás operadores aritméticos, comparaciones, lógica booleana, rangos inclusivos, comentarios y funciones integradas para trabajar con texto, listas y números.
 
-Prueba este ejemplo de Zenit:
+## ⚡ Tu primer programa
 
-```zenit
+¡Vamos a darle vida a tu primera idea!
+
+```javascript
 imprimir("¡Hola desde Zenit!")
 ```
 
-¿Quieres aprender más? Entra al **[tutorial oficial](https://zenit-amber.vercel.app/tutorial.html)**. 📘
+La salida esperada será:
 
-## 🪐 Conectar Zenit con una página web
+```text
+¡Hola desde Zenit!
+```
 
-Puedes cargar el intérprete publicado desde tu HTML:
+Un ejemplo un poco más avanzado:
+
+```javascript
+var nombre = "programador"
+var numero = 5
+
+imprimir("Hola, " + nombre)
+
+for i in 1..numero {
+  imprimir(i)
+}
+```
+
+## 🧪 Pruébalo en línea
+
+No necesitas empezar instalando herramientas: abre la web de Zenit y experimenta con el editor interactivo.
+
+<div align="center">
+
+### 🪐 Tu próximo experimento está a un clic
+
+<a href="https://zenit-amber.vercel.app/"><img src="https://img.shields.io/badge/ABRIR_ZENIT-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Abrir Zenit"></a>
+<a href="https://zenit-amber.vercel.app/tutorial.html"><img src="https://img.shields.io/badge/EMPEZAR_EL_TUTORIAL-2563EB?style=for-the-badge&logo=bookstack&logoColor=white" alt="Empezar el tutorial"></a>
+
+</div>
+
+## 📖 Ejemplos rápidos
+
+### Variables y constantes
+
+```javascript
+var nombre = "Zenit"
+var activo = true
+const PI = 3.14159
+
+imprimir(nombre)
+imprimir(activo)
+```
+
+### Condiciones
+
+```javascript
+var edad = 16
+
+if edad >= 18 {
+  imprimir("Mayor de edad")
+} else {
+  imprimir("Todavía eres menor de edad")
+}
+```
+
+### Funciones
+
+```javascript
+func doble(numero) {
+  return numero * 2
+}
+
+imprimir(doble(21))
+```
+
+### Listas y recorridos
+
+```javascript
+var frutas = ["manzana", "pera", "uva"]
+
+for fruta in frutas {
+  imprimir(fruta)
+}
+```
+
+## 🌐 Usar el intérprete desde una página HTML
+
+Puedes cargar el archivo JavaScript publicado para experimentar con Zenit desde una página web:
 
 ```html
 <script src="https://zenit-amber.vercel.app/zenit.js"></script>
 ```
 
-Después, tu página puede utilizar la API que expone el intérprete. Consulta el tutorial y los ejemplos del proyecto para ver cómo ejecutar código Zenit.
+El intérprete debe estar cargado antes de utilizar su API. Consulta la web y el tutorial para conocer el uso disponible y los ejemplos de integración.
 
-## 🗂️ Estructura del proyecto
+## 🗂️ Dentro del proyecto
 
-| Archivo | Función |
+| Archivo | ¿Qué contiene? |
 |:--|:--|
-| `zenit.html` | 🏠 Página principal del proyecto. |
-| `zenit.js` | ⚙️ Intérprete de Zenit para usar desde JavaScript. |
-| `tutorial.html` | 📘 Tutorial para aprender a usar Zenit. |
+| [`zenit.html`](./zenit.html) | 🏠 Página interactiva con editor, salida y guía rápida. |
+| `zenit.js` | ⚙️ Intérprete publicado para ejecutar código Zenit desde JavaScript. |
+| [Tutorial en línea](https://zenit-amber.vercel.app/tutorial.html) | 📘 Guía para comenzar a aprender el lenguaje. |
 
-## 🚀 Empieza aquí
+## 🧭 Empieza en tres pasos
 
-1. 🌐 Abre la [web oficial de Zenit](https://zenit-amber.vercel.app/).
-2. 📘 Aprende con el [tutorial](https://zenit-amber.vercel.app/tutorial.html).
-3. 🧪 Prueba los ejemplos y cambia el código para descubrir cómo funciona.
+1. 🌐 **Abre** la [web oficial de Zenit](https://zenit-amber.vercel.app/).
+2. 📘 **Sigue** el [tutorial](https://zenit-amber.vercel.app/tutorial.html).
+3. 🧪 **Experimenta:** cambia un ejemplo, ejecútalo y crea algo propio.
 
-## 🔧 Estado del proyecto
+¡La mejor forma de aprender un lenguaje es escribir código con él!
 
-Zenit es un proyecto en desarrollo. Puede que algunas funciones todavía estén incompletas y que existan errores.
+## 🤝 Ayuda a que Zenit crezca
 
-## 🤝 ¿Quieres contribuir?
+Zenit es un proyecto en desarrollo y las ideas de otras personas pueden ayudarlo a mejorar.
 
-¿Tienes una idea, encontraste un error o quieres proponer una mejora? Abre un *issue* en este repositorio y cuéntalo. ¡Toda idea puede ayudar a que Zenit crezca! 💫
+- 💡 ¿Tienes una idea? Abre un [issue](https://github.com/programador777lolxddd-dot/Zenit-html-/issues).
+- 🐛 ¿Encontraste un error? Describe qué hiciste, qué esperabas y qué ocurrió.
+- 📚 ¿Estás aprendiendo Zenit? Comparte ejemplos y sugerencias que puedan ayudar a otros.
+- ⭐ Si el proyecto te parece interesante, puedes darle una estrella en GitHub para que más personas lo descubran.
+
+**¡Los primeros usuarios empiezan con una primera prueba!** Si pruebas Zenit, contar qué funcionó y qué podría mejorar será una gran ayuda.
+
+## 🛠️ Estado del proyecto
+
+Zenit se encuentra **en desarrollo**. La web, el intérprete y los ejemplos forman parte de un proyecto que seguirá evolucionando. Puede haber errores y cambios de sintaxis entre versiones.
 
 ## 📜 Licencia
 
-Por ahora, este repositorio no especifica una licencia. Hasta que se añada una, no se debe asumir que el código puede reutilizarse o redistribuirse libremente.
+Este repositorio todavía no especifica una licencia. Hasta que se añada una, no debe asumirse que el código se puede reutilizar, modificar o redistribuir libremente.
 
 ---
 
 <div align="center">
 
-### 🌌 Zenit — programa tu próxima idea.
+## 🌠 Z E N I T
 
-**Hecho con 💜 y curiosidad por el código.**
+**Explora. Crea. Programa.**
+
+Hecho con ❤️, curiosidad y muchas ganas de construir.
+
+<sub>Un pequeño lenguaje. Un universo de posibilidades. 🚀</sub>
 
 </div>
