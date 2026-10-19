@@ -182,17 +182,55 @@ imprimir("¡Sigue experimentando!")
 
 ## 🌐 Usar Zenit desde una página web
 
-Puedes cargar el intérprete publicado desde tu HTML:
+Puedes integrar Zenit en tu propia página HTML cargando el intérprete publicado. **El script debe cargarse antes de llamar a la API**.
+
+### 1. Carga el intérprete
+
+Añade esta línea en tu HTML, preferiblemente antes del script que ejecuta tu programa:
 
 ```html
 <script src="https://zenit-amber.vercel.app/zenit.js"></script>
 ```
 
-Carga el script antes de utilizar la API del intérprete. Consulta la web y el tutorial para ver los ejemplos de uso disponibles.
+### 2. Ejecuta código Zenit desde JavaScript
+
+Una vez cargado el intérprete, puedes pasarle el código como texto:
+
+```html
+<textarea id="codigo">
+imprimir("¡Hola desde mi web!")
+imprimir(2 + 3)
+</textarea>
+
+<button id="ejecutar">▶ Ejecutar Zenit</button>
+<pre id="salida"></pre>
+
+<script src="https://zenit-amber.vercel.app/zenit.js"></script>
+<script>
+  document.getElementById("ejecutar").addEventListener("click", () => {
+    const codigo = document.getElementById("codigo").value;
+    const salida = document.getElementById("salida");
+
+    try {
+      const resultado = window.Zenit.ejecutar(codigo);
+      salida.textContent = resultado ?? "Programa ejecutado.";
+    } catch (error) {
+      salida.textContent = "Error: " + error.message;
+    }
+  });
+</script>
+```
+
+> [!IMPORTANT]
+> Este ejemplo presupone que la versión publicada de `zenit.js` expone `window.Zenit.ejecutar(codigo)`. Si el intérprete escribe la salida directamente en la página o devuelve un formato diferente, adapta la presentación de `resultado` a la API real.
+
+### 3. Sigue aprendiendo
+
+Consulta el tutorial oficial para ver ejemplos y aprender la sintaxis de Zenit.
 
 <div align="center">
 
-<a href="https://zenit-amber.vercel.app/tutorial.html"><img src="https://img.shields.io/badge/📘_LEER_EL_TUTORIAL-2563EB?style=for-the-badge" alt="Leer el tutorial de Zenit"></a>
+<a href="https://zenit-amber.vercel.app/tutorial"><img src="https://img.shields.io/badge/📘_LEER_EL_TUTORIAL-2563EB?style=for-the-badge" alt="Leer el tutorial de Zenit"></a>
 
 </div>
 
