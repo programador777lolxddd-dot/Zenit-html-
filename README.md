@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/zenit-logo.svg" width="112" height="112" alt="Logo oficial de Zenit" />
+
 # 🌌 Z E N I T
 
 ### ✦ Un lenguaje de programación en español ✦
@@ -43,6 +45,7 @@ Este repositorio reúne el proyecto y su página interactiva. La documentación 
 | [📚 Ejemplos](#-ejemplos-de-código) | Variables, condiciones, funciones y listas. |
 | [🌐 Integración web](#-usar-zenit-desde-una-página-web) | Cómo cargar el intérprete publicado. |
 | [🛠️ Proyecto](#️-estructura-del-proyecto) | Archivos y enlaces importantes. |
+| [🛡️ Licencia](#-licencia-mit) | Condiciones de uso del proyecto. |
 | [🤝 Contribuir](#-ayuda-a-que-zenit-crezca) | Ideas, errores y sugerencias. |
 
 ## 🌠 ¿Por qué Zenit?
@@ -197,6 +200,7 @@ Carga el script antes de utilizar la API del intérprete. Consulta la web y el t
 
 | Archivo o recurso | Descripción |
 |:--|:--|
+| [`assets/zenit-logo.svg`](./assets/zenit-logo.svg) | 🌌 Logo SVG oficial usado en esta documentación. |
 | [`zenit.html`](./zenit.html) | 🏠 Página con editor interactivo, salida y guía rápida. |
 | `zenit.js` | ⚙️ Intérprete publicado para usar desde JavaScript. |
 | [Web oficial](https://zenit-amber.vercel.app/) | 🌐 Punto de entrada para probar el proyecto. |
@@ -231,10 +235,21 @@ Zenit sigue evolucionando. Estas son áreas en las que el proyecto puede crecer;
 
 Si pruebas Zenit, contar qué funcionó y qué se podría mejorar ayudará a que el proyecto avance. ¡Los primeros usuarios empiezan con una primera prueba!
 
-## 🛡️ Estado y licencia
+## 🛡️ Licencia MIT
+
+Zenit incluye una licencia **MIT**. Puedes consultar el texto legal completo en [`LICENSE`](./LICENSE); ese archivo conserva intactas sus condiciones y garantías.
+
+<div align="center">
+
+<a href="./LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-8B5CF6?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Licencia MIT"></a>
+
+</div>
+
+> 📜 **Nota:** el distintivo es solo una presentación visual. Para conocer las condiciones aplicables, consulta siempre el archivo [`LICENSE`](./LICENSE).
+
+## 🚧 Estado del proyecto
 
 - **Estado:** en desarrollo; pueden existir errores y cambios entre versiones.
-- **Licencia:** este repositorio todavía no especifica una licencia. Hasta que se añada una, no debe asumirse que el código puede reutilizarse, modificarse o redistribuirse libremente.
 
 ---
 
