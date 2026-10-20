@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/zenit-logo.svg" width="112" height="112" alt="Logo oficial de Zenit" />
+<a href="https://zenit-amber.vercel.app/"><img src="./assets/zenit-publicidad.svg" width="600" alt="Zenit — Explora, crea y programa" /></a>
 
 # 🌌 Z E N I T
 
