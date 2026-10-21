@@ -16,7 +16,7 @@
   <a href="https://github.com/programador777lolxddd-dot/Zenit-html-"><img src="https://img.shields.io/badge/GITHUB-CODIGO_FUENTE-181717?style=for-the-badge&logo=github" alt="Código fuente en GitHub"></a>
 </p>
 
-![Estado del proyecto](https://img.shields.io/badge/Estado-En_desarrollo-F59E0B?style=for-the-badge)
+![Estado del proyecto](https://img.shields.io/badge/Estado-%C3%9Altima_versi%C3%B3n-64748B?style=for-the-badge)
 ![Versión](https://img.shields.io/badge/Versión-1.0.1-8B5CF6?style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/Intérprete-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
 ![Idioma](https://img.shields.io/badge/Sintaxis-con_palabras_en_español-EC4899?style=flat-square)
@@ -27,6 +27,18 @@
 
 </div>
 
+## 🌙 Un mensaje para la comunidad de Zenit
+
+> **Zenit está usando su última versión.**
+>
+> Sabemos que el proyecto duró poco, pero seguirá siendo utilizable para quienes quieran probarlo y aprender con él. 💙
+>
+> Estamos agradecidos por cada persona que le dio una oportunidad. Mientras Zenit permanece disponible, trabajaremos para crear otro lenguaje de programación. Queremos que la próxima sea aún mejor.
+>
+> **La próxima será mejor. Hasta pronto, usuarios de Zenit.** 🚀
+
+---
+
 ## ✨ Bienvenido a Zenit
 
 **Zenit** es un lenguaje de programación en desarrollo, creado para experimentar con código y construir una experiencia de programación accesible desde la web. Su intérprete está escrito en JavaScript y permite ejecutar programas Zenit en el navegador.
@@ -34,7 +46,7 @@
 Este repositorio reúne el proyecto y su página interactiva. La documentación y los ejemplos están pensados para ayudarte a dar tus primeros pasos, explorar la sintaxis y descubrir qué puedes construir.
 
 > [!NOTE]
-> **Zenit está en desarrollo.** La sintaxis, las funciones y las herramientas pueden cambiar a medida que el proyecto evoluciona. ¡Las ideas y pruebas de nuevos usuarios son bienvenidas!
+> **Zenit está en su última versión por ahora.** El proyecto seguirá disponible para que puedas utilizarlo y aprender con él. ¡Gracias por formar parte de esta etapa!
 
 ## 🧭 Navegación
 
@@ -254,7 +266,7 @@ Consulta el tutorial oficial para ver ejemplos y aprender la sintaxis de Zenit.
 
 ## 🗺️ El camino de Zenit
 
-Zenit sigue evolucionando. Estas son áreas en las que el proyecto puede crecer; no representan funciones que necesariamente estén terminadas.
+Zenit se conserva en su última versión publicada. Esta lista ya no representa una promesa de nuevas actualizaciones; el proyecto seguirá disponible para consultar, probar y aprender.
 
 - [ ] 📘 Ampliar y mejorar la documentación.
 - [ ] 🧪 Añadir más ejemplos pequeños y proyectos de demostración.
@@ -287,7 +299,7 @@ Zenit incluye una licencia **MIT**. Puedes consultar el texto legal completo en 
 
 ## 🚧 Estado del proyecto
 
-- **Estado:** en desarrollo; pueden existir errores y cambios entre versiones.
+- **Estado:** última versión publicada; el proyecto seguirá siendo utilizable, aunque no se prometen nuevas actualizaciones.
 
 ---
 
